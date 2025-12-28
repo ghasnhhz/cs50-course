@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>1</title>
+        <style>
+            #check {
+                margin-left: 42rem;
+                margin-top: 3em;
+                text-align: center;
+                color: red;
+                background-color: yellow;
+                border-radius: 0.30rem;
+                width: 10rem;
+                height: 3rem;
+            }
+            #text {
+                text-align: center;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let func = document.querySelector('#check');
+                func.addEventListener('click', function() {
+                    func.style.backgroundColor = "green";
+                    document.querySelector("#text").innerHTML = "Well done"
+                })
+            })
+        </script>
+
+    </head>
+    <body>
+        <button id="check">Press here</button>
+        <h1 id="text"><h1>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+SELECT id
+FROM crime_scene_reports
+WHERE day = 28
+AND month = 'July'
+AND year = 2023
+AND street = 'Humphrey';
+
+id = 295
+id = 297
+
+Theft of the CS50 duck took place at 10:15am at the Humphrey Street bakery. Interviews were conducted with three witnesses who were present at the time - each of their interview transcripts mentions the bakery.
+Littering took place at 16:36. No known witnesses
+
+
+Witness 1: Ruth: 161(id)
+Witness 2: Eugene: 162(id) she recognized the thief as she saw the theif early in the morning before arriving the Emma's bakery at ATM on the Leggett Street and saw the thief withdrawing some money.
+Witness 3: Raymond: 163(id)
+
+
+Phone callers: Bruce (367) 555-5533 5773159633(seat: 4A) , reciever:(375) 555-8161 ,  person.id: 686048  ; Sofia (130) 555-0289 1695452385(seat: 3B)   person.id: 398010;                --Diana (770) 555-1861 3592750733--, --Kelsey (499) 555-9472 8294398571--.
+
+origin airport_id: 8 , abbreviation: CSF , full_name: Fiftyville Regional Airport
+destination airport_id: 4 , abbreviation: LGA full_name: LaGuardia Airport , city: New York City

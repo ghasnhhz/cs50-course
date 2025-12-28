@@ -1,0 +1,16 @@
+sort1 uses: Bubble sort
+
+How do you know?: Takes 0,283s to sort reversed10000 list; Takes 0,061s to sort sorted10000 list
+
+sort2 uses: Merge sort
+
+How do you know?: Takes 0,079s to sort reversed10000 list; Takes 0,143s to sort sorted10000 list
+
+sort3 uses: Selection sort
+
+How do you know?: Takes 0,135s to sort reversed10000 list; Takes 0,137s to sort sorted10000 list
+
+
+// The best(1) The MERGE sort: in the best case scenerio -> O(Nlog(N)), and in the worst case scenerio -> Big omega(Nlog(N))
+// The better(2) The BUBBLE sort: in the best case scenerio -> O(N*N)), and in the worst case scenerio -> Big omega(N*N)
+// The last(3) The SELECTION sort: in the best case scenerio -> O(N*N), and in the worst case scenerio -> Big omega(N)
