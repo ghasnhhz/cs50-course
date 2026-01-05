@@ -1,4 +1,4 @@
-This is the repository I used during the Harvard CS50 course
+This is the repository I used during the Harvard CS50x course
 
 It includes my personal implementations of problem sets and projects across several core areas of computer science:
 
